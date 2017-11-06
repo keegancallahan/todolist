@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+    	<meta charset="utf-8">
+    	<meta name="description" content="Your description goes here">
+    	<meta name="keywords" content="one, two, three">
+
+		<title>To Do List</title>
+
+		<!-- external CSS link -->
+		<link rel="stylesheet" href="css/normalize.css">
+		<link rel="stylesheet" href="css/style.css">
+
+		<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+	</head>
+	<body>
+		<div id="container">
+			<fieldset>
+				<form id="new">
+      		<input id="newItem">
+      		<button id="add">Add to List</button>
+    		</form>
+				<ul id="todos"></ul>
+				<div class="status">
+      		<p>You have <span id="count">0</span> todos left.</p>
+    		</div>
+    		<div class="controls">
+      		<button id="clearList">Clear List</button>
+					<button id="clearCompleted">Clear Completed</button>
+    		</div>
+			</fieldset>
+
+		</div><!-- #container -->
+		<script src="js/main.js" type="text/javascript"></script>
+	</body>
+</html>
